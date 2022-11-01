@@ -1,5 +1,7 @@
 FROM tomcat:8.0
 
-MAINTAINER deepak2717@gmail.com
+MAINTAINER surajshinde@gmail.com
+EXPOSE 8080
+CMD ["catalina.sh","run"]
 
 #COPY pipelineProjectDocker/target/JenkinsWar.war /usr/local/tomcat/webapps/
